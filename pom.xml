@@ -10,7 +10,7 @@
     </parent>
     <groupId>io.github.spring-json5</groupId>
     <artifactId>spring-boot-starter-json5</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>spring-boot-starter-json5</name>
     <description>Adding JSON5 support to your spring boot project.</description>
     <url>https://github.com/spring-json5/spring-boot-starter-json5</url>

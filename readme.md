@@ -33,7 +33,7 @@ Add the starter as a dependency in your `pom.xml`:
 <dependency>
     <groupId>io.github.spring-json5</groupId>
     <artifactId>spring-boot-starter-json5</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
@@ -48,6 +48,7 @@ The starter will be activated automatically in your Spring Boot project using Sp
 Since you added the starter to your pom.xml, no need for additional setup.
 Provide request header `Accept: appication/json5` to receive response body in JSON5 format.
 And in the same manner provide request header `Content-Type: appication/json5` with body in JSON5 format if you want your controller be able to deserialize JSON5 request body to your object in controller.
+If you want to disable this feature, you should add property in your properties file: `spring.json5.enable-for-rest=false`
 
 #### 2. RestTemplate
 
