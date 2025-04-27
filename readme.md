@@ -54,7 +54,7 @@ And in the same manner provide request header `Content-Type: appication/json5` w
 Use class `Json5RestTemplate` on order to make requests and get responses in JSON5 format.
 The class 100% compatible with original `RestTemplate` because it is just extend it.
 By default `Json5RestTemplate` able to serialize and deserialize with JSON5, but you should provide `Content-Type: application/json5` header and/or `Accept: application/json5` header if you want to force this behavior.
-If you want ot avoid every time manually provide headers, you can use contractor with parameters `new Json5RestTemplate(USE_ONLY_JSON5_CONTENT_TYPE, USE_ONLY_JSON5_ACCEPT);`
+If you want ot avoid every time manually provide headers, you can use constructor with parameters `new Json5RestTemplate(USE_ONLY_JSON5_CONTENT_TYPE, USE_ONLY_JSON5_ACCEPT);`
 
 #### 3. JsonMapper
 
@@ -66,8 +66,8 @@ Moreover, you can use static method `Json5Mapper.build()` if you want to get van
 
 ## 🧩 Supported JSON5 features
 
-Only embed Jackson features are used for implementing JSON5 format. Not all JSON5 features are supported.
-List of supported features below:
+Only embed Jackson features are used for implementing support of JSON5 format. Not all JSON5 features are supported.
+List of the supported features below:
 
 ### For DeSerialization (JSON5 string to Java objects)
 

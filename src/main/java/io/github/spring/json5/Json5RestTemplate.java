@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * This child of RestTemplate out-of-the-box able Serialize/Deserialize JSON5.
  * Important note: You still must provide headers Content-Type and/or Accept with value application/json5 if you want to send and/or receive JSON5 messages.
- * If you do not want every time to provide Content-Type and/or Accept, you can once call useOnlyJson5ContentType() and/or useOnlyJson5AcceptHeader() to this class automatically set these headers in value application/json5.
+ * If you do not want every time to provide Content-Type and/or Accept, you can provide Features like (USE_ONLY_JSON5_CONTENT_TYPE and USE_ONLY_JSON5_ACCEPT) to constructor parameters to this class automatically set these headers in value application/json5.
  */
 public class Json5RestTemplate extends RestTemplate {
 
