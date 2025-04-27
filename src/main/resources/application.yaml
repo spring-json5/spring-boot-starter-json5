@@ -1,0 +1,3 @@
+spring:
+  json5:
+    enable-for-rest: true

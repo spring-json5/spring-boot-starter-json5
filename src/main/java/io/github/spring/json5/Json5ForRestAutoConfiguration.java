@@ -12,7 +12,13 @@ import java.util.List;
 
 @AutoConfiguration
 @AutoConfigureAfter(JacksonAutoConfiguration.class)
-public class Json5AutoConfiguration {
+@ConditionalOnProperty(
+        prefix = "spring.json5",
+        name = "enable-for-rest",
+        havingValue = "true",
+        matchIfMissing = true
+)
+public class Json5ForRestAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean

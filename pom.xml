@@ -10,9 +10,9 @@
     </parent>
     <groupId>io.github.spring-json5</groupId>
     <artifactId>spring-boot-starter-json5</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>spring-boot-starter-json5</name>
-    <description>A Spring Boot Starter for adding JSON5 support to your Spring Boot project.</description>
+    <description>Adding JSON5 support to your spring boot project.</description>
     <url>https://github.com/spring-json5/spring-boot-starter-json5</url>
     <licenses>
         <license>
@@ -38,6 +38,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <scope>provided</scope>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

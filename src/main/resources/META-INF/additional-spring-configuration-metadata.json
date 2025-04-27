@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "spring.json5.enable-for-rest",
+      "type": "java.lang.Boolean",
+      "description": "Enable deserialization of JSON5 request bodies and serialization response bodies. Working by providing headers 'Content-Type: application/json5' and 'Accept: application/json5'.",
+      "defaultValue": true
+  }
+] }

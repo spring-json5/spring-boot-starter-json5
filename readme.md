@@ -2,9 +2,9 @@
 
 ![License](https://img.shields.io/badge/license-MIT-greeb.svg) ![Version](https://img.shields.io/maven-central/v/io.github.spring-json5/spring-boot-starter-json5)  
 
-A **Spring Boot Starter** for adding [JSON5](https://json5.org/) support to your Spring Boot project.
+Adding [JSON5](https://json5.org/) support to your spring boot project.
 
-✨ No additional dependencies are used in the project. Only spring boot is used as a dependency.
+✨ No additional dependencies are used in the project. Only spring-boot-starter-web is used as a dependency.
 
 ---
 
@@ -33,7 +33,7 @@ Add the starter as a dependency in your `pom.xml`:
 <dependency>
     <groupId>io.github.spring-json5</groupId>
     <artifactId>spring-boot-starter-json5</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
