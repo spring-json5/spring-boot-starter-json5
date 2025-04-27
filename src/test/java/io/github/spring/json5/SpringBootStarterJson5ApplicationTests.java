@@ -103,7 +103,7 @@ class SpringBootStarterJson5ApplicationTests {
     /**
      * Checking features for serialization and deserialization.
      * Most features for deserialization (read from JSON5 string) are working.
-     * But deserialization only removing quotes is the main feature.
+     * But for serialization only removing quotes is the main feature.
      */
     @Test
     void testJson5SerializationFeatures() {
